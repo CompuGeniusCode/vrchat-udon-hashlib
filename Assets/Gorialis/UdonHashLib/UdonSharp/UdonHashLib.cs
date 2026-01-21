@@ -90,7 +90,7 @@ public class UdonHashLib : UdonSharpBehaviour
         return ToUTF8_Into(chars, chars.Length);
     }
 
-    private static readonly char[] HEX = "0123456789abcdef".ToCharArray();
+    private readonly char[] HEX = "0123456789abcdef".ToCharArray();
 
     private char[] _hexOut;
 
